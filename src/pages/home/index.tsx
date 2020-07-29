@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Header from '../../components/header'
+import FilterableProductTable from '../../components/nameForm'
 import './index.less'
 
 class Home extends Component {
   render() {
     return (
       <div className="P-home">
-        <Header />
+        <FilterableProductTable />
         <h1>Home page</h1>
       </div>
     )
